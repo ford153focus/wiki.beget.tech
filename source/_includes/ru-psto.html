@@ -1,0 +1,13 @@
+<!-- {{ site.pages[2] | inspect }} -->
+{% if page.url == "/ru/" %}
+<ul>
+    {% assign psto = site.pages | sort: 'title' | sort: 'category' %}
+    {% for page in psto %}
+    {% if page.dir contains "/ru/" and page.dir != "/ru/" %}
+    <li>
+        <a href="{{ page.url }}">{{ page.category }} :: {{ page.title }}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
+{% endif %}

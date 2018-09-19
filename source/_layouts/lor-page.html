@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include lor-head.html %}
+</head>
+<body>
+
+{% include lor-header.html %}
+
+<hr>
+
+<div class="row-fluid  title">
+    <div class="span10 container">
+        <h1>{{ page.title }}</h1>
+    </div>
+</div>
+
+<hr>
+
+<div class="row-fluid  content">
+    <div class="span10 container">
+        {{ content }}
+    </div>
+</div>
+
+<hr>
+
+{% include lor-footer.html %}
+
+</body>
+</html>

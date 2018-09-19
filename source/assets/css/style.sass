@@ -1,0 +1,61 @@
+---
+---
+h1
+  text-align: center
+  margin: 1cm 0
+
+a[data-fancybox="gallery"]
+  img
+    max-width: 640px
+
+td, th
+  border: 1px solid #eee
+  padding: 5px
+
+figure.highlight > pre
+  text-align: left
+  & > code[class^='language-']
+    float: right
+    padding: 2mm
+    & > span
+      text-align: left
+
+.qa
+  position: relative
+  i.fas
+    font-size: 32px
+    color: black
+    position: absolute
+  span
+    display: inline-block
+    vertical-align: middle
+    height: 100%
+    word-break: keep-all
+  li
+    list-style-position: inside
+  &.question
+    padding-top: 1em
+    padding-left: 2.5em
+    h2
+      font-size: 1.5em
+    i.fas
+      top: 0px
+      left: 0px
+    span
+      font-size: 22px
+  &.answer
+    text-align: right
+    padding-bottom: 1em
+    padding-right: 2.5em
+    i.fas
+      bottom: 0px
+      right: 0px
+    span
+      color: #111111
+  &.alert.alert-warning
+    font-style: italic
+    text-align: justify
+    text-align: -webkit-match-parent
+    i.fas
+      bottom: 0px
+      right: 0px

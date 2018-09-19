@@ -1,0 +1,6 @@
+ErrorDocument 403 /ru/
+ErrorDocument 404 /ru/
+
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !ru/
+RewriteRule (.*) /ru/$1 [L]

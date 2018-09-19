@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+{% include beget-head.html %}
+
+<body>
+
+    <div id="all">
+            {% include beget-header.html %}
+        <main>
+            <div id="main">
+                <p></p>
+                <p></p>
+                        <div class="row">
+                            <div class="col-xs-12 content">
+                                {% include ru-psto.html %}
+                                <h1>{{ page.title }}</h1>
+                                {{ content }}
+                            </div>
+                        </div>
+            </div>
+        </main>
+        {% include beget-footer.html %}
+    </div>
+    {% include beget-scripts.html %}
+</body>
+
+</html>
