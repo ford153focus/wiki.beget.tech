@@ -1,7 +1,7 @@
 ---
 categories: ['Сайты']
 layout: bootstrap-sticky-footer
-title:  "Document Root"
+title:  "изменить Document Root"
 description: ""
 keywords: ["document root"]
 ---

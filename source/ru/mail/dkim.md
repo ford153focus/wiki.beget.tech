@@ -3,11 +3,8 @@ categories: ['Почта']
 layout: bootstrap-sticky-footer
 title:  "DKIM и SPF"
 description: ""
-keywords: ['почта', 'dkim', 'spf']
+keywords: ['dkim', 'spf']
 ---
-
-Здравствуйте. Уточните, пожалуйста: DKIM-подпись нужна для писем отправляемых скриптами (функция mail()) или через SMTP (почтовый клиент)?
-
 {% question %}
 Необходимо включить DKIM и SPF для всех отправляемых писем. Как это сделать?
 {% endquestion %}

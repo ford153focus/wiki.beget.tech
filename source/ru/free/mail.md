@@ -1,3 +1,12 @@
+---
+categories: ['Free-хостинг']
+layout: bootstrap-sticky-footer
+title:  "mail() на FreeHosting"
+description: ""
+keywords: ['free','mail']
+hidden: true
+todo: "оно еще работает?"
+---
 Здравствуйте. К сожалению, mail() на FreeHosting отсутствует. 
 
 Вы можете использовать сторонние почтовые сервера (Gmail, Yandex, Mail.Ru и прочие), настроив вашу CMS соответствующим образом (если такой функционал в ней заложен) или переписать функцию отправки почты с применением библиотеки PhpMailer (или любой другой).

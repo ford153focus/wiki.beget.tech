@@ -20,6 +20,15 @@ figure.highlight > pre
     & > span
       text-align: left
 
+h6[id^=ref]
+  span.num
+    background-color: black
+    color: white
+    padding: 1px 5px
+    border-radius: 32px
+  span.txt p
+    display: inherit
+
 .qa
   position: relative
   i.fas
@@ -39,17 +48,18 @@ figure.highlight > pre
     h2
       font-size: 1.5em
     i.fas
-      top: 0px
-      left: 0px
+      top: 0
+      left: 0
     span
       font-size: 22px
   &.answer
-    text-align: right
     padding-bottom: 1em
     padding-right: 2.5em
+    td,th
+      border: black 1px solid
     i.fas
-      bottom: 0px
-      right: 0px
+      bottom: 0
+      right: 0
     span
       color: #111111
   &.alert.alert-warning
@@ -57,5 +67,5 @@ figure.highlight > pre
     text-align: justify
     text-align: -webkit-match-parent
     i.fas
-      bottom: 0px
-      right: 0px
+      bottom: 0
+      right: 0

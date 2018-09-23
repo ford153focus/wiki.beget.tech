@@ -10,7 +10,9 @@ keywords: ['логин', 'пароль']
 {% endquestion %}
 
 {% answer %}
-Адес сервера можно посмотреть в левой колонке на {% link https://cp.beget.com/ftp %} . Обычно он имеет вид ACCOUNTNAME.beget.tech
+Адес сервера можно посмотреть в левой колонке на {% link https://cp.beget.com/ftp %} . Он имеет вид ACCOUNTNAME.beget.tech
+
+{% Fancybox /assets/img/screenshots/ftp_server_addr.png %}
 
 Логин и пароль - такие же, как от личного кабинета
 

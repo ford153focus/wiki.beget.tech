@@ -1,9 +1,16 @@
 ---
-layout: beget_article
-title:  "Дисковая квота - чем занята дисковая квота?"
+layout: bootstrap-sticky-footer
 categories: ['Аккаунт']
+title: "Чем занята дисковая квота?"
+description: ""
+keywords: ["дисковая квота"]
 ---
+{% question %} 
+Пришло уведомление, что на аккаунте заканчивается место. Как посмотреть чем оно занято?
+{% endquestion %} 
 
+{% answer %}
 Вы можете посмотреть детальную статистику по занимаемой квоте с помощью утилиты `ncdu`, которая уже установлена на всех хостинговых серверах.
 
-[Зайдите на ваш аккаунт на сервере по SSH](https://beget.com/ru/articles/ssh_windows) и выполните команду: `ncdu`
+[Зайдите на ваш аккаунт на сервере по SSH](https://beget.com/ru/articles/ssh_windows) и выполните команду: `ncdu -x`
+{% endanswer %}

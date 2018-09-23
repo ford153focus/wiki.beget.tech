@@ -1,7 +1,7 @@
 ---
 categories: ['Платежи']
 layout: bootstrap-sticky-footer
-title:  "Как перенести средства с одного аккаунта на другой?"
+title:  "Перенос средств с одного аккаунта на другой"
 description: ""
 keywords: ["перенос средств"]
 --- 

@@ -25,5 +25,4 @@ keywords: ["поддомен", "поддиректория"]
 {% Fancybox /assets/img/screenshots/shared_folder_1.png %}
 
 {% Fancybox /assets/img/screenshots/shared_folder_2.png %}
-
 {% endanswer %}
