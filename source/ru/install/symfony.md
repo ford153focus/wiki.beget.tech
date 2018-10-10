@@ -5,7 +5,15 @@ title:  "Symfony"
 description: ""
 keywords: ['symfony']
 ---
-## Вход по SSH
+## Создание отдельного пользователя и вход по SSH
+
+- перейдите на {%link https://cp.beget.com/ftp%}
+- кликните на ![](https://cp.beget.com/i/icons/small/add.png) напротив нужного сайта
+- в поле __Путь к директории__ удалите в конце __/public_html__
+- включите SSH
+- добавьте пользователя
+
+Через 5-15 минут подключитесь с новым пользователем. Можете воспользоваться {%link https://beget.com/ru/articles/ssh_windows%}, если вы не знаете как подключаться по SSH
 
 ## Установка
 
@@ -31,17 +39,19 @@ mv tmp/* .
 rm -rf tmp/
 ```
 
+Доустанавливаем всякую "требуху", чтобы Symfony без проблем заработала с Apache.
+
+```
+composer-php7.2 require symfony/apache-pack
+```
+
+### Финальная настройка
+
 Symfony считает, что `Document Root` должен указывать на директорию с названием `public`, `beget` - `public_html`.
 Улаживаем разногласия символьную ссылкой.
 
 ```
 ln -s public public_html
-```
-
-Доустанавливаем всякую "требуху", чтобы Symfony без проблем заработала с Apache.
-
-```
-composer-php7.2 require symfony/apache-pack
 ```
 
 И, собственно, на этом всё - ваш фрэймворк готов к работе, начинате творить :)
