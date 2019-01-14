@@ -23,6 +23,6 @@ keywords: ["месторасположение"]
 Та же история...
 {% endanswer %}
 
-{% BsWarn %}
+{% BootstrapWarningR10 %}
 Наверное проще перейти на [VPS](https://beget.com/ru/vps) и поставить на ней всё нужное, никого и ничего не дожидаясь.
-{% endBsWarn %}
+{% endBootstrapWarningR10 %}

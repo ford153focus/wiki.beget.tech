@@ -1,5 +1,5 @@
 module Jekyll
-  class BsWarn < Liquid::Block
+  class BootstrapWarningR10 < Liquid::Block
     def initialize(tag_name, text, tokens)
       super
     end
@@ -97,7 +97,7 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('BsWarn', Jekyll::BsWarn)
+Liquid::Template.register_tag('BootstrapWarningR10', Jekyll::BootstrapWarningR10)
 Liquid::Template.register_tag('Fancybox', Jekyll::Fancybox)
 Liquid::Template.register_tag('answer', Jekyll::QaAnswer)
 Liquid::Template.register_tag('question', Jekyll::QaQuestion)

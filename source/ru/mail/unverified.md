@@ -29,13 +29,13 @@ keywords: ['unverified']
  Ставить правильный заголовок. Ну серьёзно. Письмо отправляется с ford.ru? Пишем в заголовок admin@ford.ru. Письмо отправляется с example.com? Пишем в заголовок admin@example.com. И так далее.
 {% endanswer %}
 
-{% BsWarn %}
+{% BootstrapWarningR10 %}
 Вместо admin@ можно поставить любой ящик, это не принципиально.
-{% endBsWarn %}
+{% endBootstrapWarningR10 %}
 
-{% BsWarn %}
+{% BootstrapWarningR10 %}
 Не обязательно, чтобы ящик admin@ (или любой другой выбранный) существовал. Хотя и желательно - не далёк тот момент, когда будут проверять и это.
-{% endBsWarn %}
+{% endBootstrapWarningR10 %}
 
 {% question %}
 Как это сделать? Где это делается?

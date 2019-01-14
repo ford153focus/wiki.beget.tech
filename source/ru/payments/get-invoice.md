@@ -17,9 +17,9 @@ keywords: ["счёт"]
 Можно получить его и по электронной почту, но только в том случае, если к письмо будет отправлено с того e-mail, который указан как контактный
 {% endanswer %}
 
-{% BsWarn %}
+{% BootstrapWarningR10 %}
 Посмотреть контактный email аккаунт можно на {% link https://cp.beget.com/settings/info %}
-{% endBsWarn %}
+{% endBootstrapWarningR10 %}
 
 {% answer %}
 ### Если аккаунт оформлен на физическое лицо

@@ -22,9 +22,9 @@ Wordpress достаточно тяжёлый и не оптимизирован
 В особых тяжёлых случаях могут помочь [Memcache](https://beget.com/ru/articles/memcached) и [Redis](https://beget.com/ru/articles/redis)
 {% endanswer %}
 
-{% BsWarn %}
+{% BootstrapWarningR10 %}
 По сообщениям клиентов, именно для Wordpress предпочтительнее выбирать memcached. Но лично мы не замеряли.
-{% endBsWarn %}
+{% endBootstrapWarningR10 %}
 
 {% answer %}
 ### Плагины
@@ -34,6 +34,6 @@ Wordpress достаточно тяжёлый и не оптимизирован
 Просмотрите список плагинов, который установлен у вас на сайте - возможно там есть плагины, которые на сайте нигде не используются и их можно удалить.
 {% endanswer %}
 
-{% BsWarn %}
+{% BootstrapWarningR10 %}
 Статья не окончена и будет пополняться в дальнейшем. Напишите нам, если у вас тоже есть что добавить
-{% endBsWarn %}
+{% endBootstrapWarningR10 %}

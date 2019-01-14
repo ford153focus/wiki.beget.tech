@@ -17,6 +17,6 @@ keywords: ["let's encrypt", "cloudflare"]
 Вам подойдёт настройка "Flexible SSL"  
 {% endanswer %}
 
-{% BsWarn %}
+{% BootstrapWarningR10 %}
 Заказать сертификат Let's Encrypt на хостинге без делегирования домена на DNS-сервера Beget'a не выйдет - Let's Encrypt проверяет сверяет IP заказывающего сервера с DNS-записями.
-{% endBsWarn %}
+{% endBootstrapWarningR10 %}

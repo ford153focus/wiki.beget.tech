@@ -6,13 +6,13 @@ description: ""
 keywords: ['wiki', 'главная']
 ---
 
-{% BsWarn %}
+{% BootstrapWarningR10 %}
 Сайт находится в разработке
-{% endBsWarn %}
+{% endBootstrapWarningR10 %}
 
-{% BsWarn %}
+{% BootstrapWarningR10 %}
 Временный дизайн
-{% endBsWarn %}
+{% endBootstrapWarningR10 %}
 
 На данном сайте разобраны наиболее популярные проблемы, которые возникали у пользователей shared-хостинга за последние 3 года.
 

@@ -14,6 +14,6 @@ keywords: ["moodle", "https"]
 В случае Moodle нужно внести изменения в файл `config.php` и изменить директиву `$CFG->wwwroot`
 {% endanswer %}
 
-{% BsWarn %}
+{% BootstrapWarningR10 %}
 Также актуально при переезде сайта на HTTPS
-{% endBsWarn %}
+{% endBootstrapWarningR10 %}

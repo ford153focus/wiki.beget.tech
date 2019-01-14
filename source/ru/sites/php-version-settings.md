@@ -41,6 +41,6 @@ Cменить версию РНР можно самостоятельно на {
 Если же вам нужен полный доступ к php.ini - на той же страничке вы можете переключить нужный сайт в режим PHP-CGI, тогда файл php.ini будет считываться из `%директория сайта%/public_html/cgi-bin/php.ini`.
 {% endanswer %}
 
-{% BsWarn %}
+{% BootstrapWarningR10 %}
 Однако просим учесть, что php-cgi работает медленнее mod_php и лишён модулей кэширования OPCache/XCache. Тот же Bitrix, например, в режиме CGI не жилец.
-{% endBsWarn %}
+{% endBootstrapWarningR10 %}

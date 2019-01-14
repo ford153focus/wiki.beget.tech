@@ -15,9 +15,9 @@ keywords: ["поддомен", "поддиректория"]
 
 Вы можете создать поддомен на {% link https://cp.beget.com/domains %} и направить его на директорию домена
 
-{% BsWarn %}
+{% BootstrapWarningR10 %}
 Если поддомен уже существует - его можно прекрепить к директории основного домена на {% link https://cp.beget.com/sites %}
-{% endBsWarn %}
+{% endBootstrapWarningR10 %}
 
 После этого вам нужно будет добавить в файл `.htaccess`, который находится в директории public_html нужного сайта, строки следующего вида
 
@@ -30,8 +30,8 @@ RewriteRule (.*) /subdomain/$1 [L]
 
 /subdomain/ заменяем на имя поддиректории, в которую мы будем заливать файлы поддомена, subdomain.example.com меняем на адрес поддомена
 
-{% BsWarn %}
+{% BootstrapWarningR10 %}
 Если файл `.htaccess` отсутствует - нужно его создать.
-{% endBsWarn %}
+{% endBootstrapWarningR10 %}
 
 {% endanswer %}
