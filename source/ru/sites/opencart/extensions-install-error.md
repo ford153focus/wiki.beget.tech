@@ -1,7 +1,7 @@
 ---
 layout: bootstrap-sticky-footer
 categories: ['Сайты']
-title:  "OpenCart: высокая нагрузка на БД"
+title:  "OpenCart: ошибка при установке расширений"
 description: ""
 keywords: ["OpenCart", "нагрузка"]
 ---
