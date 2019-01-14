@@ -1,4 +1,17 @@
 module Jekyll
+  class BootstrapWarning < Liquid::Block
+    def initialize(tag_name, text, tokens)
+      super
+    end
+
+    def render(context)
+      "<div class='qa answer col-12 alert alert-warning'>
+        <span>#{Kramdown::Document.new(super).to_html}</span>
+        <i class='fas fa-exclamation-triangle'></i>
+      </div>"
+    end
+  end
+
   class BootstrapWarningR10 < Liquid::Block
     def initialize(tag_name, text, tokens)
       super
@@ -97,6 +110,7 @@ module Jekyll
   end
 end
 
+Liquid::Template.register_tag('BootstrapWarning', Jekyll::BootstrapWarning)
 Liquid::Template.register_tag('BootstrapWarningR10', Jekyll::BootstrapWarningR10)
 Liquid::Template.register_tag('Fancybox', Jekyll::Fancybox)
 Liquid::Template.register_tag('answer', Jekyll::QaAnswer)
