@@ -1,9 +1,9 @@
 ---
 categories: ['Установка и настройка']
 layout: bootstrap-sticky-footer
-title:  "Symfony"
+title:  "Laravel"
 description: ""
-keywords: ['symfony']
+keywords: ['laravel']
 ---
 ## Создание отдельного пользователя и вход по SSH
 
@@ -27,25 +27,19 @@ cd $HOME
 rm -rf *
 ```
 
-### Устнавливаем Symfony
+### Устнавливаем Laravel
 
 Ставим в поддиректорию `tmp` и установленные файлы в домашнюю директорию.
 
 ```
-composer-php7.2 create-project symfony/website-skeleton tmp
+composer-php7.2 create-project --prefer-dist laravel/laravel tmp
 mv tmp/* .
 rm -rf tmp/
 ```
 
-Доустанавливаем всякую "требуху", чтобы Symfony без проблем заработала с Apache.
-
-```
-composer-php7.2 require symfony/apache-pack
-```
-
 ### Финальная настройка
 
-Symfony считает, что `Document Root` должен указывать на директорию с названием `public`, Beget - `public_html`.
+Laravel считает, что `Document Root` должен указывать на директорию с названием `public`, Beget - `public_html`.
 Улаживаем разногласия символьную ссылкой.
 
 ```
